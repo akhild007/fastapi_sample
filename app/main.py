@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "FastAPI"}
+    return {"Hello": "World"}
 
 @app.get("/health")
 def health_route():
